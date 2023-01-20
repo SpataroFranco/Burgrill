@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "nombre": "Burgrill simple + Papas Fritas",
+        "tipo": "hamburguesaClasica",
+        "desc": "Medallon x1 Cheddar Fetas x2 Bacon Cebolla Crispy Aderezo Burgrill",
+        "precio": 1000,
+        "img": "'../img/productos/burger1.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 2,
+        "nombre": "Sweet Onion Simple + Papas Fritas",
+        "tipo": "hamburguesaClasica",
+        "desc": " Medallon x1 Cheddar Fetas x2 Bacon Cebolla Caramelizada",
+        "precio": 1000,
+        "img": "'../img/productos/burger2.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 3,
+        "nombre": "Sweet Onion Doble + Papas Fritas",
+        "tipo": "hamburguesaClasica",
+        "desc": " Medallon x2 Cheddar Fetas x4 Bacon Cebolla Caramelizada",
+        "precio": 1300,
+        "img": "'../img/productos/burger3.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 4,
+        "nombre": "American Burger Doble + Papas Fritas",
+        "tipo": "hamburguesaClasica",
+        "desc": " Medallon x2 Cheddar Fetas x4 Tomate Lechuga Cebolla Cruda Dill Pickles Aderezo Thousand Island",
+        "precio": 1200,
+        "img": "'../img/productos/burger4.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 5,
+        "nombre": "Royal Doble + Papas Fritas",
+        "tipo": "hamburguesaClasica",
+        "desc": "Medallon x2 Cheddar Fetas x4 Cebolla Cruda Ketchup Mostaza Pepino",
+        "precio": 1500,
+        "img": "'../img/productos/burger5.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 6,
+        "nombre": "California simple + Papas Fritas",
+        "tipo": "hamburguesaClasica",
+        "desc": "Medallón, cheddar x2, lechuga, tomate, cebolla, doble california sauce y papas fritas",
+        "precio": 1300,
+        "img": "'../img/productos/burger6.jpeg'",
+        "cantidad":1
+    }
+]

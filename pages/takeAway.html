@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner&family=Josefin+Sans&family=Pacifico&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="../img/decoracion/favicon.jpg" />
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/estilo.css" />
+  <!-- animaciones  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Descripcion -->
+  <meta name="description"
+    content="Mirá el menú que tenemos para vos! Hamburguesas caseras elaboradas con los mejores productos para que te lleves la mejor experiencia de Burgrill" />
+  <!-- Titulo -->
+  <title>Take away - Burgrill</title>
+</head>
+
+<!-- INICIO HEADER -->
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light nav-pills">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="takeAway.html">Take away</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ubicacion.html">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="encuesta.html">Encuesta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+
+          <span class="navbar-text">
+            <button id="cesta-carrito">
+              <img src="../img/svg/cart.svg" class="fas fa-shopping-cart" alt="logo carrito" />
+              <span id="contador-carrito">0</span>
+            </button>
+            <a href="https://www.instagram.com/burgrill.coast/" target="_blank">
+              <img src="../img/svg/instagram.svg" alt="logo instagram" />
+            </a>
+            <a href="https://wa.me/+5491136745145" target="_blank">
+              <img src="../img/svg/Whatsapp.svg" alt="logo whatsapp" />
+            </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- FINAL HEADER -->
+
+  <!-- INICIO CONTENIDO PRINCIPAL -->
+  <!-- HAMBURGUESAS -->
+  <div class="container-titulo">
+    <h1 class="titulo">Hamburguesas</h1>
+  </div>
+  <section class="container">
+    <div id="container-burgers">
+
+    </div>
+  </section>
+
+  <!-- BEBIDAS -->
+  <div class="container-titulo">
+    <h2 class="titulo">Bebidas</h2>
+  </div>
+  <section class="container">
+    <div id="container-bebidas">
+
+    </div>
+  </section>
+
+  <!-- SALSAS -->
+  <div class="container-titulo">
+    <h2 class="titulo">Salsas</h2>
+  </div>
+  <section class="container">
+    <div id="container-salsas">
+
+  </section>
+
+  <!-- Modal carrito -->
+  <div class="modal-contenedor">
+    <div class="modal-carrito">
+      <h3>Carrito</h3>
+      <button id="btn-cerrar-carrito">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <div id="carrito-contenedor">
+    
+      </div>
+      <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+      <button class="btnModal">
+        <i class="eliminar-todo">Vaciar carrito</i>
+      </button>
+      <button class="btnModal">
+        <i class="finalizar-compra">Finalizar compra</i>
+      </button>
+    </div>
+  </div>
+  <!-- FINAL CONTENIDO PRINCIPAL -->
+
+  <!-- INICIO FOOTER -->
+  <footer>
+    <a href="../index.html">
+      <img class="navbar-brand logo" src="../img/decoracion/logoTrans.png" alt="logo BurGrill" />
+    </a>
+
+    <h4>
+      ©Sitio web creado por Franco Spataro - Todos los derechos reservados
+    </h4>
+    <div class="social">
+      <a href="takeAway.html" target="_blank">
+        <img src="../img/svg/cart.svg" alt="logo carrito" />
+      </a>
+      <a href="https://www.instagram.com/burgrill.coast/" target="_blank">
+        <img src="../img/svg/instagram.svg" alt="logo ig" />
+      </a>
+      <a href="https://wa.me/+5491136745145" target="_blank">
+        <img src="../img/svg/Whatsapp.svg" alt="logo whatsapp" />
+      </a>
+    </div>
+  </footer>
+  <!-- FINAL FOOTER -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+  <script src="../js/takeAway.js"></script>
+  <script src="../js/modal.js"></script>
+  <script src="../js/AppTakeAway.js"></script>
+  <script src="../js/carrito.js"></script>
+  <script src="../controllers/productsControllers.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <!-- animaciones -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>

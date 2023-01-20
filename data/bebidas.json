@@ -1,0 +1,67 @@
+[
+    {
+        "id": 10,
+        "nombre": "Pepsi regular 354ml",
+        "tipo": "bebida",
+        "desc": "Lata de pepsi de 354ml",
+        "precio": 300,
+        "img": "'../img/productos/pepsi.png'",
+        "cantidad":1
+    },
+
+    {
+        "id": 11,
+        "nombre": "Pepsi Black 354ml",
+        "tipo": "bebida",
+        "desc": "Lata de pepsi black de 354ml",
+        "precio": 300,
+        "img": "'../img/productos/pepsiBlack.png'",
+        "cantidad":1
+    },
+
+    {
+        "id": 12,
+        "nombre": "Seven up Regular 354ml",
+        "tipo": "bebida",
+        "desc": "Lata de seven up de 354ml",
+        "precio": 300,
+        "img": "'../img/productos/7up.png'",
+        "cantidad":1
+    },
+    {
+        "id": 13,
+        "nombre": "Seven up sin azucar Regular 354ml",
+        "tipo": "bebida",
+        "desc": "Lata de seven up sin azucar de 354ml",
+        "precio": 300,
+        "img": "'../img/productos/7upSA.png'",
+        "cantidad":1
+    },
+    {
+        "id": 14,
+        "nombre": "Cerveza Patagonia 24.7 410ml",
+        "tipo": "bebida",
+        "desc": "Cerveza Patagonia 24.7 410ml",
+        "precio": 300,
+        "img": "'../img/productos/patagonia247.png'",
+        "cantidad":1
+    },
+    {
+        "id": 15,
+        "nombre": "Cerveza Patagonia Amber Lager 410ml",
+        "tipo": "bebida",
+        "desc": "Cerveza Patagonia Amber Lager 410ml",
+        "precio": 300,
+        "img": "'../img/productos/patagoniaAmber.png'",
+        "cantidad":1
+    },
+    {
+        "id": 16,
+        "nombre": "Cerveza Patagonia Bohemian 410ml",
+        "tipo": "bebida",
+        "desc": "Cerveza Patagonia Bohemian 410ml",
+        "precio": 300,
+        "img": "'../img/productos/patagoniaBohemian.png'",
+        "cantidad":1
+    }
+]

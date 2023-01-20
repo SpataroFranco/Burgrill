@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner&family=Josefin+Sans&family=Pacifico&display=swap"
+      rel="stylesheet" />
+    <link rel="shortcut icon" href="../img/decoracion/favicon.jpg" />
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <!-- animaciones  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Descripcion -->
+    <meta name="description"
+      content="Queremos saber sobre tu experiencia en Burgrill. Tus respuestas serán tratadas de forma confidencial y utilizadas para mejorar nuestro servicio." />
+    <!-- Titulo -->
+    <title>Encuesta - Burgrill</title>
+  </head>
+
+<!-- INICIO HEADER -->
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light nav-pills">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="takeAway.html">Take away</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ubicacion.html">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="encuesta.html">Encuesta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+
+          <span class="navbar-text">
+            <a href="takeAway.html" target="_blank">
+              <img src="../img/svg/cart.svg" alt="imagen carrito" />
+            </a>
+            <a href="https://www.instagram.com/burgrill.coast/" target="_blank">
+              <img src="../img/svg/instagram.svg" alt="imagen instagram" />
+            </a>
+            <a href="https://wa.me/+5491136745145" target="_blank">
+              <img src="../img/svg/Whatsapp.svg" alt="imagen whatsapp" />
+            </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- FINAL HEADER -->
+
+  <!-- INICIO CONTENIDO PRINCIPAL -->
+  <div class="tituloEncuesta animate__animated animate__fadeInDown">
+    <h1>¡Contanos! Queremos saber tu experiencia en Burgrill</h1>
+  </div>
+
+  <section class="parrafos">
+    <p>
+      Tus respuestas serán tratadas de forma confdencial y utilizadas
+      únicamente para mejorar el servicio que te ofrecemos día a día.
+    </p>
+    <p>¡Dejanos tus datos y participá en nuestros próximos sorteos!</p>
+  </section>
+
+  <section class="containerEncuesta">
+    <form id="formEncuesta">
+      <!-- Sexo -->
+      <div class="cajaCheck">
+        <div class="tituloCheck">
+          <span>1. Sexo</span>
+        </div>
+        <div class="cuerpoCheck">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionSexo" value="Masculino"/>
+            <label class="form-check-label">Masculino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionSexo" value="Femenino"/>
+            <label class="form-check-label">Femenino</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Edad -->
+      <div class="cajaCheck">
+        <div class="tituloCheck">
+          <span>2. Edad</span>
+        </div>
+        <div class="cuerpoCheck">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionEdad" value="Menor de 18 años" />
+            <label class="form-check-label">Menor de 18 años</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionEdad" value="Entre 19-25 años" />
+            <label class="form-check-label">Entre 19-25 años</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionEdad" value="Entre 26-35 años" />
+            <label class="form-check-label">Entre 26-35 años</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionEdad" value="Entre 36-45 años" />
+            <label class="form-check-label">Entre 36-45 años</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionEdad" value="Más de 40 años" />
+            <label class="form-check-label">Más de 40 años</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cómo nos conociste -->
+      <div class="cajaCheck">
+        <div class="tituloCheck">
+          <span>3. ¿Cómo nos conociste?</span>
+        </div>
+        <div class="cuerpoCheck">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionConociste" value="A través de una red social" />
+            <label class="form-check-label">A través de una red social</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionConociste" value="A través de un amigo o conocido" />
+            <label class="form-check-label">A través de un amigo o conocido</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionConociste" value="Folletos" />
+            <label class="form-check-label">Folletos</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionConociste" value="Otros" />
+            <label class="form-check-label">Otros</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cómo nos conociste -->
+      <div class="cajaCheck">
+        <div class="tituloCheck">
+          <span>4. ¿Cuál es tu hamburguesa favorita?</span>
+        </div>
+        <div class="cuerpoCheck">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="Burgrill simple" />
+            <label class="form-check-label">Burgrill simple</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="Sweet Onion Simple" />
+            <label class="form-check-label">Sweet Onion Simple</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="Sweet Onion Doble" />
+            <label class="form-check-label">Sweet Onion Doble</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="American Burger Doble" />
+            <label class="form-check-label">American Burger Doble</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="Royal Doble" />
+            <label class="form-check-label">Royal Doble</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="California simple" />
+            <label class="form-check-label" >California simple</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="Stacked Bacon Doble" />
+            <label class="form-check-label" >Stacked Bacon Doble</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="Sweet ´n´ Spicy Doble" />
+            <label class="form-check-label" >Sweet ´n´ Spicy Doble</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="Pesto Burger Doble" />
+            <label class="form-check-label" >Pesto Burger Doble</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="opcionBurger" value="Meatfree Burger" />
+            <label class="form-check-label" >Meatfree Burger</label>
+          </div>
+
+          <!-- Calidad/precio -->
+          <div class="cajaCheck">
+            <div class="tituloCheck">
+              <span>5. ¿Cómo calificarías la relación calidad/precio de nuestros productos?</span>
+            </div>
+
+            <div class="cuerpoCheck">
+              <span>Malo</span>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionCalidad" value="1" />
+                <label class="form-check-label" >1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionCalidad" value="2" />
+                <label class="form-check-label" >2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionCalidad" value="3" />
+                <label class="form-check-label" >3</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionCalidad" value="4" />
+                <label class="form-check-label" >4</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionCalidad" value="5" />
+                <label class="form-check-label" >5</label>
+              </div>
+              <span>Muy bueno</span>
+            </div>
+          </div>
+
+          <!-- Frecuencia visita -->
+          <div class="cajaCheck">
+            <div class="tituloCheck">
+              <span>6. ¿Con qué frecuencia consumis en Burgrill?</span>
+            </div>
+
+            <div class="cuerpoCheck">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionFrecuencia" 
+                  value="Diariamente" />
+                <label class="form-check-label" >Diariamente</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionFrecuencia" 
+                  value="Una vez a la semana" />
+                <label class="form-check-label" >Una vez a la semana</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionFrecuencia"
+                  value="Varias veces en la semana" />
+                <label class="form-check-label" >Varias veces en la semana</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionFrecuencia" 
+                  value="Una vez al mes" />
+                <label class="form-check-label" >Una vez al mes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionFrecuencia" 
+                  value="Varias veces al mes" />
+                <label class="form-check-label" >Varias veces al mes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="opcionFrecuencia" 
+                  value="Alguna vez a lo largo del año" />
+                <label class="form-check-label">Alguna vez a lo largo del año</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sugerencia -->
+          <div class="cajaCheck">
+            <div class="tituloCheck">
+              <span>8. ¿Hay algo más que te gustaría decir o sugerirnos que no hayamos preguntado en esta
+                encuesta?</span>
+            </div>
+            <div class="cuerpoCheck">
+              <textarea name="textEncuesta" id="textEncuesta" cols="30" rows="10" placeholder="Sugerencia"></textarea>
+            </div>
+          </div>
+
+          <div class="boton">
+            <button class="primary-button" id="submit" type="submit" value="Enviar">Enviar</button>
+          </div>
+    </form>
+  </section>
+  <!-- FINAL CONTENIDO PRINCIPAL -->
+
+  <!-- INICIO FOOTER -->
+  <footer>
+    <div>
+      <a href="../index.html">
+        <img class="navbar-brand logo" src="../img/decoracion/logoTrans.png" alt="logo BurGrill" />
+      </a>
+    </div>
+    <h4>
+      ©Sitio web creado por Franco Spataro - Todos los derechos reservados
+    </h4>
+    <div class="social">
+      <a href="takeAway.html" target="_blank">
+        <img src="../img/svg/cart.svg" alt="logo carrito" />
+      </a>
+      <a href="https://www.instagram.com/burgrill.coast/" target="_blank">
+        <img src="../img/svg/instagram.svg" alt="logo ig" />
+      </a>
+      <a href="https://wa.me/+5491136745145" target="_blank">
+        <img src="../img/svg/Whatsapp.svg" alt="logo whatsapp" />
+      </a>
+    </div>
+  </footer>
+  <!-- FINAL FOOTER -->
+
+  <!-- Toastify -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <!-- animaciones -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="../js/encuesta.js"></script>
+</body>
+
+</html>

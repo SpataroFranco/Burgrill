@@ -1,0 +1,21 @@
+@import './variables';
+
+$mapFooter: (
+  color:$black,
+  align:center,
+  justificado:space-around
+);
+
+footer {
+  background-color: $color;
+  display: flex;
+  align-items: map-get($mapFooter, align);
+  justify-content: map-get($mapFooter , justificado);
+  color: map-get($mapFooter , color);
+
+  .social {
+    a {
+      padding: 0 6px;
+    }
+  }
+}

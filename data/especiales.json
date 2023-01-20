@@ -1,0 +1,31 @@
+[
+    {
+        "id": 7,
+        "nombre": "Stacked Bacon Doble + Papas Fritas",
+        "tipo": "hamburguesaEspecial",
+        "desc": "Medallón x2 + Cheddar fetas x4 + Bacon ahumado por nosotros x 4 fetas + Relish sauce + Papas fritas",
+        "precio": 1600,
+        "img": "'../img/productos/burger7.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 8,
+        "nombre": "Sweet Spicy Doble + Papas Fritas",
+        "tipo": "hamburguesaEspecial",
+        "desc": "Medallon x2 + Cheddar fetas x4 + Mermelada de Tomate + Pickles de Pepino + Alioli de Jalapeños + Papas",
+        "precio": 1600,
+        "img": "'../img/productos/burger8.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 9,
+        "nombre": "Pesto Burger Doble + Papas Fritas",
+        "tipo": "hamburguesaEspecial",
+        "desc": "Medallon x2 + Cheddar fetas x4 + Tomate + Pesto + Alioli + Papas fritas",
+        "precio": 1600,
+        "img": "'../img/productos/burger9.jpeg'",
+        "cantidad":1
+    }
+]
