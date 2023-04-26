@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner&family=Josefin+Sans&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/decoracion/favicon.jpg" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Toastify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <!-- animaciones  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Descripcion -->
+    <meta
+      name="description"
+      content="Completa el formulario y te responderemos a la brevedad. Link directo a nuestras redes sociales"
+    />
+    <!-- Titulo -->
+    <title>Contacto - Burgrill</title>
+  </head>
+
+  <!-- INICIO HEADER -->
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light nav-pills">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="takeAway.html">Take away</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="encuesta.html">Encuesta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+
+            <span class="navbar-text">
+              <a href="takeAway.html" target="_blank">
+                <img src="../img/svg/cart.svg" alt="logo carrito" />
+              </a>
+              <a
+                href="https://www.instagram.com/burgrill.coast/"
+                target="_blank"
+              >
+                <img src="../img/svg/instagram.svg" alt="logo instagram" />
+              </a>
+              <a href="https://wa.me/+5491136745145" target="_blank">
+                <img src="../img/svg/Whatsapp.svg" alt="logo whatsapp" />
+              </a>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- FINAL HEADER -->
+
+    <!-- INICIO CONTENIDO PRINCIPAL -->
+    <div class="tituloContacto animate__animated animate__fadeInDown">
+      <h1>Comunicate con nosotros!</h1>
+    </div>
+
+    <div class="parrafos">
+      <h2>Completa el formulario y te responderemos a la brevedad!</h2>
+    </div>
+
+    <div class="container">
+      <section class="row">
+        <div class="col-xl-6 col-md-6 col-sm-12 imgContacto">
+          <img
+            src="../img/decoracion/atencionAlCliente.jpg"
+            alt="atencion al cliente img"
+          />
+        </div>
+
+        <div class="col-xl-6 col-md-6 col-sm-12 formulario">
+          <form id="formContacto" class="needs-validation">
+            <input
+              id="nombre"
+              class="input form-control"
+              type="text"
+              placeholder="NOMBRE"
+              name="nombre"
+              required
+            />
+            <input
+              id="apellido"
+              class="input form-control"
+              type="text"
+              placeholder="APELLIDO"
+              name="apellido"
+              required
+            />
+            <input
+              id="email"
+              class="input form-control"
+              type="email"
+              placeholder="E-MAIL"
+              name="email"
+              required
+            />
+            <input
+              id="numero"
+              class="input form-control"
+              type="text"
+              placeholder="NUMERO"
+              name="numero"
+              required
+            />
+            <textarea
+              id="message"
+              type="text"
+              placeholder="MENSAJE. . ."
+              name="mensaje"
+              required
+            ></textarea>
+            <div class="containCheck">
+              <span>Queres recibir nuestras novedades?</span>
+              <input
+                type="checkbox"
+                class="checkNovedades"
+                name="acepta"
+                value="1"
+              />
+            </div>
+            <input id="submit" class="submit" type="submit" value="Enviar" />
+          </form>
+        </div>
+      </section>
+    </div>
+    <!-- FINAL CONTENIDO PRINCIPAL -->
+
+    <!-- INICIO FOOTER -->
+    <footer>
+      <div>
+        <a href="../index.html">
+          <img
+            class="navbar-brand logo"
+            src="../img/decoracion/logoTrans.png"
+            alt="logo BurGrill"
+          />
+        </a>
+      </div>
+      <h4>
+        ©Sitio web creado por Franco Spataro - Todos los derechos reservados
+      </h4>
+      <div class="social">
+        <a href="takeAway.html" target="_blank">
+          <img src="../img/svg/cart.svg" alt="logo carrito" />
+        </a>
+        <a href="https://www.instagram.com/burgrill.coast/" target="_blank">
+          <img src="../img/svg/instagram.svg" alt="logo ig" />
+        </a>
+        <a href="https://wa.me/+5491136745145" target="_blank">
+          <img src="../img/svg/Whatsapp.svg" alt="logo whatsapp" />
+        </a>
+      </div>
+    </footer>
+    <!-- FINAL FOOTER -->
+
+    <!-- Toastify -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- animaciones -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="../js/contacto.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init("rPdGxphOv8qLUhuPy");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+@import '../partials/variables';
+
+.btn-primary {
+  color: white;
+  background-color: $color;
+  border-radius: 12px;
+
+  &:hover {
+    color: white;
+    background-color: #dda15e;
+  }
+
+  &:focus {
+    color: white;
+    background-color: #dda15e;
+  }
+
+  &:active {
+    color: white;
+    background-color: #dda15e;
+  }
+}
+
+.btn-primary.active {
+  color: black;
+  background-color: rgb(90, 51, 51);
+  border-color: black;
+}

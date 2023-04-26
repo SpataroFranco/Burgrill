@@ -1,0 +1,31 @@
+[
+    {
+        "id": 17,
+        "nombre": "Ali Oli",
+        "tipo": "salsa",
+        "desc": "Dip salsa de ali oli",
+        "precio": 200,
+        "img": "'../img/productos/AliOli.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 18,
+        "nombre": "BBQ",
+        "tipo": "salsa",
+        "desc": "Dip salsa de barbacoa",
+        "precio": 200,
+        "img": "'../img/productos/bbq.jpeg'",
+        "cantidad":1
+    },
+
+    {
+        "id": 19,
+        "nombre": "Marinara",
+        "tipo": "salsa",
+        "desc": "Dip salsa de marinara",
+        "precio": 200,
+        "img": "'../img/productos/marinara.jpeg'",
+        "cantidad":1
+    }
+]
